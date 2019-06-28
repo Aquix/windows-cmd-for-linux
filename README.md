@@ -1,4 +1,4 @@
-**Windows CMD for Linux**
+**Windows CMD for Linux (Ubuntu - Debian)**
 =========================
 Данная команда добавит вам функционал командой строки ***Windows*** в ***Linux***, как понятно из описания.
 
