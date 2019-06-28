@@ -16,3 +16,7 @@
 - Ubuntu 18.04
 - Kali Linux
 - Debian
+**Связь:**
+----------
+- VK: https://vk.com/realaquix
+- Discord: Aquix-#3866
