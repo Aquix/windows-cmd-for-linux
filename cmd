@@ -32,7 +32,7 @@ while [ $# -gt 0 ]; do
   --path)  shift ; do_path=y ;;
   --install-all-kali)  shift ; do_install_all_kali=y ;;
   --)   shift ; break ;;
-  -*)   echo -ne "\e[32;1mОШИБКА:\e[0m"; echo "CMD: ${1}: неверная операция" >&2
+  -*)   echo -ne "\e[32;1mОШИБКА:\e[0m "; echo "CMD: ${1}: неверная операция" >&2
       echo "$USAGE" >&2
       exit 2 ;;
   *)    break ;;
