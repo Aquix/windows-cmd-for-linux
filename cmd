@@ -30,6 +30,7 @@ while [ $# -gt 0 ]; do
   --open)  shift ; do_open=y ;;
   --install)  shift ; do_install=y ;;
   --path)  shift ; do_path=y ;;
+  --install-all-kali)  shift ; do_install_all_kali=y ;;
   --)   shift ; break ;;
   -*)   echo -ne "\e[32;1mОШИБКА:\e[0m"; echo "CMD: ${1}: неверная операция" >&2
       echo "$USAGE" >&2
@@ -107,9 +108,10 @@ path) echo -ne "\e[32;1mОШИБКА:\e[0m"; echo " Пропущены симв�
   echo "Installed."
   wine --help
   ;;
---install-all) echo "Installing..."
+--install-all-kali) echo "Installing..."
   sudo apt-get install wine-gecko
   sudo apt-get install winetrics
+  sudo apt install wine
   echo "Installed."
   ;;
 --help)
