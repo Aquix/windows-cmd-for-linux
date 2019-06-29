@@ -9,6 +9,12 @@
 - cd windows-cmd-for-linux
 - chmod +x installer.sh
 - ./installer.sh
+**После установки нужно прописать (Kali GNU/Debian):**
+-------------------------------------------
+- cmd --install-all-kali
+**Ubuntu:**
+------------
+- cmd --install
 
 **Все, установка завершена, пользуйтесь!** 
 =============================
