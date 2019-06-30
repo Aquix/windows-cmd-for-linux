@@ -158,12 +158,12 @@ echo "Добавление apt-key >> успешно"
   sudo apt-add-repository 'deb https://dl.winehq.org/wine-builds/ubuntu/ bionic main'
 echo "Добавление репозитория winehq//bionic >> успешно"
 
-__important    
+$__important    
     cat << HERE_EOF
       > Начата установка пакетов winehq, пожалуйста, подождите.
       >  P.S. если имеются подтормаживания, установку следует немедленно прекратить, так как переполняется буфер и ОЗУ.
 HERE_EOF
-__important
+$__important
 
   sudo apt-get install —install-recommends winehq-stable -y
   echo "Установка успешно завершена."
